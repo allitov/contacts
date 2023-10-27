@@ -8,4 +8,5 @@ public interface ContactsManager {
     List<Contact> getAllContacts();
     boolean deleteContactByEmail(String email);
     boolean saveContact(Contact contact);
+    void serializeContacts();
 }
